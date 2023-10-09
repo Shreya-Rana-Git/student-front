@@ -1,0 +1,32 @@
+<h2>Student Details</h2> 
+
+<hr/>
+<div *ngIf="student">
+    <div>
+        <label><b>Roll: </b></label> {{student.rollNumber}}
+      </div>  
+  <div>
+        <label><b>Student Name: </b></label> {{student.studentName}}
+      </div>
+      <div>
+        <label><b>Course Name: </b></label> {{student.courseName}}
+      </div>
+      <div>
+        <label><b>Subject1: </b></label> {{student.subject1}}
+      </div>
+      <div>
+        <label><b>Subject2: </b></label> {{student.subject2}}
+      </div>
+      <div>
+        <label><b>Subject3: </b></label> {{student.subject3}}
+      </div>
+      <div>
+        <label><b>Total Mark: </b></label> {{student.totalMarks}}
+      </div> 
+      <div>
+        <label><b>Grade: </b></label> {{student.grade}}
+      </div>  
+    </div>
+    <br>
+<br>
+<button (click)="goBackStudentList()" class="btn btn-primary">Back to Student List</button><br>

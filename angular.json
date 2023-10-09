@@ -61,9 +61,11 @@
           "configurations": {
             "production": {
               "browserTarget": "student-front:build:production"
+             
             },
             "development": {
-              "browserTarget": "student-front:build:development"
+              "browserTarget": "student-front:build:development",
+               "port":10100
             }
           },
           "defaultConfiguration": "development"
